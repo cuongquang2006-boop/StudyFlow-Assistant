@@ -1,8 +1,9 @@
-# Mini Chatbot
+# StudyFlow Assistant
 
 ## Tech Stack
 - Core Logic: Python
 - Backend: FastAPI
+- Deployment: Render
 - UI: C++
 
 ## Roadmap
