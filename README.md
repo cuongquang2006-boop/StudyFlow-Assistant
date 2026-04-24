@@ -4,7 +4,7 @@
 - Core Logic: Python
 - Backend: FastAPI
 - Deployment: Render
-- UI: C++ (⬅️ here!)
+- UI: C++ (here!)
 
 ## Roadmap
 - Connect to the AI
