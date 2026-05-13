@@ -20,15 +20,12 @@ public:
     MainWindow(QWidget* parent = nullptr);
 
 private:
-    // UI setup
     void setupUI();
 
-    // Chat logic
     void sendMessage();
     void addMessage(const QString& text, bool isUser);
     void typeMessage(ChatBubble* bubble, const QString& fullText);
 
-    // Scroll + control
     void smoothScroll();
     void stopRequest();
 
@@ -50,7 +47,6 @@ protected:
 private:
 
     QRect originalInputGeometry;
-    // 🔥 UI
     QScrollArea* scrollArea;
     QWidget* chatContainer;
     QVBoxLayout* chatLayout;
@@ -59,11 +55,9 @@ private:
     QLineEdit* input;
     QPushButton* sendBtn;
 
-    // 🔥 Network
     QNetworkAccessManager* manager;
     QNetworkReply* currentReply = nullptr;
 
-    // 🔥 State
     bool isStopped = false;
     QTimer* typingTimer = nullptr;
 
@@ -71,4 +65,4 @@ private:
     QString currentFullText;
 };
 
-#endif // MAINWINDOW_H
+#endif 
