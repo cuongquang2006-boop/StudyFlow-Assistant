@@ -1,4 +1,4 @@
-# StudyFlow Assistant(Clients app)
+# StudyFlow Assistant
 
 ## Tech Stack
 - Core Logic: Python
